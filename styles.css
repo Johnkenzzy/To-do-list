@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height:  100vh;
+    text-align: center;
+    background: url(https://www.amitree.com/wp-content/uploads/2021/08/the-pros-and-cons-of-paper-to-do-lists.jpeg) no-repeat center center / cover;
+    transition: 1s;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid transparent;
+    height: 50vh;
+}
+
+.input-box {
+    border: 2px solid #fff;
+    padding: 15px;
+    border-radius: 10px;
+    background: #9fd3f8;
+    box-shadow: 2px;
+}
+
+input {
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: large;
+}
+
+input:hover {
+    border: 2px solid #f8dcdc;
+}
+
+#btn {
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    background: #f8dcdc;
+    margin-left: 5px;
+}
+
+.output-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50vh;
+    position: relative;
+    overflow-y: scroll;
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 3px solid #9fd3f8;
+    border-radius: 19px;
+    width: 20rem;
+    background: #fff;
+    margin: 5px;
+}
+
+li {
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    text-align: left;
+    min-width: 13.5rem;
+    font-size: larger;
+    color: #6acef3;
+}
+
+.fa-solid {
+    padding: 5px;
+    border: 2px solid #9fd3f8;
+    border-radius: 4px;
+    margin: 2px;
+}
+
+.fa-check {
+    color: green;
+}
+.fa-check:hover {
+    background: green;
+    color: white;
+}
+
+.fa-trash {
+    color: red;
+}
+
+.fa-trash:hover {
+    background: wheat;
+}
