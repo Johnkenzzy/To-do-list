@@ -78,11 +78,12 @@ li {
     margin-right: 10px;
     padding: 5px;
     text-overflow: ellipsis;
-    word-break: break-all;
+    word-break: keep-all;
     text-align: left;
     min-width: 13.5rem;
     font-size: larger;
-    color: #6acef3;
+    color: #7076c7;
+    /*text-decoration-line: underline overline line-through;*/
 }
 
 .fa-solid {
